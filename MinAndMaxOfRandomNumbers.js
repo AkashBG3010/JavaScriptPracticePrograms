@@ -1,0 +1,16 @@
+let num1 = (Math.floor(Math.random() *999) +100)
+console.log('Random generated number_1 is:' +num1)
+let num2 = (Math.floor(Math.random() *999) +100)
+console.log('Random generated number_2 is:' +num2)
+let num3 = (Math.floor(Math.random() *999) +100)
+console.log('Random generated number_3 is:' +num3)
+let num4 = (Math.floor(Math.random() *999) +100)
+console.log('Random generated number_4 is:' +num4)
+let num5 = (Math.floor(Math.random() *999) +100)
+console.log('Random generated number_5 is:' +num5)
+
+min = Math.min(num1,num2,num3,num4,num5)
+max = Math.max(num1,num2,num3,num4,num5)
+
+console.log('Minimum of five random 3-digit numbers is: '+min)
+console.log('Maximum of five random 3-digit numbers is: '+max)
